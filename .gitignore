@@ -1,0 +1,186 @@
+###########################
+# Drupal Core
+###########################
+
+# Ignore configuration files that may contain sensitive information
+web/sites/*/settings.php
+web/sites/*/services.yml
+
+# Ignore paths that may contain user-generated content
+web/sites/*/files
+web/sites/*/public
+web/sites/*/private
+web/sites/*/files-public
+web/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+web/sites/*/translations
+web/sites/*/tmp
+web/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+web/core
+web/modules/contrib
+web/themes/contrib
+web/libraries
+web/profiles/contrib
+web/sites/example.sites.php
+web/sites/example.settings.local.php
+web/sites/development.services.yml
+
+web/.csslintrc
+web/.editorconfig
+web/.eslintignore
+web/.eslintrc.json
+web/.gitattributes
+web/.ht.router.php
+web/.htaccess
+web/autoload.php
+web/index.php
+web/LICENSE.txt
+web/README.txt
+web/robots.txt
+web/update.php
+webweb.config
+
+###########################
+# Composer
+###########################
+
+# Composer vendor
+vendor/
+vendor/.git
+
+###########################
+# Drush
+###########################
+
+# Configuration
+local.drush.yml
+
+# Contrib modules
+drush/Commands
+
+# Drush 9 Checksums
+drush/sites/.checksums
+
+###########################
+# Theming
+###########################
+
+# Ignore custom theme build artifacts
+web/themes/custom/*/node_modules
+web/themes/custom/*/css
+web/themes/custom/*/styleguide
+
+# Ignore build artifacts
+deployment_identifier
+/deploy
+bin/*
+tmp
+reports
+
+# Sass
+.sass-cache
+*.css.map
+
+# NPM
+npm-debug.log
+
+###########################
+# OS
+###########################
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+###########################
+# Development Tools
+###########################
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpathk
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# PHPStorm and Friends:
+.idea/
+atlassian-ide-plugin.xml
+
+# Code IDE specific files
+sftp-config.json
+
+# XHProf
+xhprof_*
+
+# Netbeans IDE
+nbproject
+nbproject/*
+
+# Visual Studio Code
+.vscode
+
+# DrupalVM
+.vagrant/
+
+# Acquia DevDesktop
+*.dd
+
+#Exports
+*.gz
+*.sql
+*.zip
+
+# Deprecation detector rules
+.rules

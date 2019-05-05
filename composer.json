@@ -1,0 +1,54 @@
+{
+    "name": "tsega/drupal-8-for-professionals",
+    "description": "A Drupal 8 course for professional developers",
+    "type": "project",
+    "require": {
+        "cweagans/composer-patches": "^1.6.0",
+        "hussainweb/drupal-composer-helper": "^1.0",
+        "drupal/core": "^8.7",
+        "drupal/console": "^1.0.2",
+        "drush/drush": "~8.0|^9.0.0-beta8"
+    },
+    "require-dev": {
+        "behat/mink": "~1.7",
+        "behat/mink-goutte-driver": "~1.2",
+        "jcalderonzumba/gastonjs": "~1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+        "mikey179/vfsstream": "~1.2",
+        "phpunit/phpunit": ">=4.8.28 <5",
+        "symfony/css-selector": "~2.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tsegaselassie Tadesse",
+            "email": "tsegaselassi@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "drupal-composer-helper": {
+            "web-prefix": "web"
+        },
+        "enable-patching": true,
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

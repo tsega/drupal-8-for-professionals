@@ -1,0 +1,4 @@
+name: d8pro
+recipe: drupal8
+config:
+  webroot: web
