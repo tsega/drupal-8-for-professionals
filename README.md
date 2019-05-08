@@ -22,3 +22,14 @@ Date:   Tue July 7 18:02:43 2020 +0000
 ```
 
 There will be instruction to checkout the initial commit every time a section is started. This is done to allow the trainee to follow along for better understanding and experimenting.
+
+
+## Preamble
+
+**This is a highly opinionated course!**
+
+What is shared here is based on actual experience gained through working on Drupal 8 full time. Do not expect this to be course ladened with all the possible ways of achieving the same result but more of an end-to-end approach to give you all that you need to become a proficient Drupal 8 developer. I am open for suggestions and improvements but I would suspect most things would remain the same :smiley:.
+
+## Contributions
+
+Please feel free to fork and send a pull request!
