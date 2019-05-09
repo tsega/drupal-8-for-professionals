@@ -1,0 +1,29 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/print.css: { media: print}
+
+global-js:
+  version: VERSION
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+vuejs.vue:
+  remote: https://github.com/vuejs/vue
+  version: 2.6.10
+  license:
+    name: MIT
+    url: http://opensource.org/licenses/MIT
+    gpl-compatible: true
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js: { type: external, minified: true }
+
+VT323:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=VT323: { type: external }

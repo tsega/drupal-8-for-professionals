@@ -9,3 +9,7 @@ regions:
   content: Content
   sidebar_first: 'Sidebar First'
   footer: Footer
+
+libraries:
+  - mytheme/global-css
+  - mytheme/global-js
