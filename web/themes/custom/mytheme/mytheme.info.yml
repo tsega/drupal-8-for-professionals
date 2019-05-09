@@ -1,0 +1,5 @@
+name: mytheme
+type: theme
+description: 'My first custom theme.'
+base theme: classy
+core: 8.x

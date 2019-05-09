@@ -12,13 +12,13 @@ commit b237b0ae127eb877b56b0d987e0c00de73f4e275
 Author: Tsegaselassie Tadesse <tsegaselassi@gmail.com>
 Date:   Tue July 7 18:06:59 2020 +0000
 
-    final: hook add
+    final: 5.2.1 hook add
 
 commit f82ec9c0627280479ff7731522f782cf434463fa
 Author: Tsegaselassie Tadesse <tsegaselassi@gmail.com>
 Date:   Tue July 7 18:02:43 2020 +0000
 
-    init: hook add
+    init: 5.2.1 hook add
 ```
 
 There will be instruction to checkout the initial commit every time a section is started. This is done to allow the trainee to follow along for better understanding and experimenting.
